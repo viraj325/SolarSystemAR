@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C046975B28F6711000FE32A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046975A28F6711000FE32A2 /* AppDelegate.swift */; };
+		C046975D28F6711000FE32A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046975C28F6711000FE32A2 /* ContentView.swift */; };
+		C046975F28F6711000FE32A2 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C046975E28F6711000FE32A2 /* Experience.rcproject */; };
+		C046976128F6711200FE32A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C046976028F6711200FE32A2 /* Assets.xcassets */; };
+		C046976428F6711200FE32A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C046976328F6711200FE32A2 /* Preview Assets.xcassets */; };
+		C046976E28F6711200FE32A2 /* SolarSystemARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046976D28F6711200FE32A2 /* SolarSystemARTests.swift */; };
+		C046977828F6711200FE32A2 /* SolarSystemARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046977728F6711200FE32A2 /* SolarSystemARUITests.swift */; };
+		C046977A28F6711200FE32A2 /* SolarSystemARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046977928F6711200FE32A2 /* SolarSystemARUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C046976A28F6711200FE32A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C046974F28F6711000FE32A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C046975628F6711000FE32A2;
+			remoteInfo = SolarSystemAR;
+		};
+		C046977428F6711200FE32A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C046974F28F6711000FE32A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C046975628F6711000FE32A2;
+			remoteInfo = SolarSystemAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C046975728F6711000FE32A2 /* SolarSystemAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystemAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C046975A28F6711000FE32A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C046975C28F6711000FE32A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C046975E28F6711000FE32A2 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		C046976028F6711200FE32A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C046976328F6711200FE32A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C046976928F6711200FE32A2 /* SolarSystemARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C046976D28F6711200FE32A2 /* SolarSystemARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemARTests.swift; sourceTree = "<group>"; };
+		C046977328F6711200FE32A2 /* SolarSystemARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C046977728F6711200FE32A2 /* SolarSystemARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemARUITests.swift; sourceTree = "<group>"; };
+		C046977928F6711200FE32A2 /* SolarSystemARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C046975428F6711000FE32A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C046976628F6711200FE32A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C046977028F6711200FE32A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C046974E28F6711000FE32A2 = {
+			isa = PBXGroup;
+			children = (
+				C046975928F6711000FE32A2 /* SolarSystemAR */,
+				C046976C28F6711200FE32A2 /* SolarSystemARTests */,
+				C046977628F6711200FE32A2 /* SolarSystemARUITests */,
+				C046975828F6711000FE32A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C046975828F6711000FE32A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C046975728F6711000FE32A2 /* SolarSystemAR.app */,
+				C046976928F6711200FE32A2 /* SolarSystemARTests.xctest */,
+				C046977328F6711200FE32A2 /* SolarSystemARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C046975928F6711000FE32A2 /* SolarSystemAR */ = {
+			isa = PBXGroup;
+			children = (
+				C046975A28F6711000FE32A2 /* AppDelegate.swift */,
+				C046975C28F6711000FE32A2 /* ContentView.swift */,
+				C046975E28F6711000FE32A2 /* Experience.rcproject */,
+				C046976028F6711200FE32A2 /* Assets.xcassets */,
+				C046976228F6711200FE32A2 /* Preview Content */,
+			);
+			path = SolarSystemAR;
+			sourceTree = "<group>";
+		};
+		C046976228F6711200FE32A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C046976328F6711200FE32A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C046976C28F6711200FE32A2 /* SolarSystemARTests */ = {
+			isa = PBXGroup;
+			children = (
+				C046976D28F6711200FE32A2 /* SolarSystemARTests.swift */,
+			);
+			path = SolarSystemARTests;
+			sourceTree = "<group>";
+		};
+		C046977628F6711200FE32A2 /* SolarSystemARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C046977728F6711200FE32A2 /* SolarSystemARUITests.swift */,
+				C046977928F6711200FE32A2 /* SolarSystemARUITestsLaunchTests.swift */,
+			);
+			path = SolarSystemARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C046975628F6711000FE32A2 /* SolarSystemAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C046977D28F6711200FE32A2 /* Build configuration list for PBXNativeTarget "SolarSystemAR" */;
+			buildPhases = (
+				C046975328F6711000FE32A2 /* Sources */,
+				C046975428F6711000FE32A2 /* Frameworks */,
+				C046975528F6711000FE32A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarSystemAR;
+			productName = SolarSystemAR;
+			productReference = C046975728F6711000FE32A2 /* SolarSystemAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C046976828F6711200FE32A2 /* SolarSystemARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C046978028F6711200FE32A2 /* Build configuration list for PBXNativeTarget "SolarSystemARTests" */;
+			buildPhases = (
+				C046976528F6711200FE32A2 /* Sources */,
+				C046976628F6711200FE32A2 /* Frameworks */,
+				C046976728F6711200FE32A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C046976B28F6711200FE32A2 /* PBXTargetDependency */,
+			);
+			name = SolarSystemARTests;
+			productName = SolarSystemARTests;
+			productReference = C046976928F6711200FE32A2 /* SolarSystemARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C046977228F6711200FE32A2 /* SolarSystemARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C046978328F6711200FE32A2 /* Build configuration list for PBXNativeTarget "SolarSystemARUITests" */;
+			buildPhases = (
+				C046976F28F6711200FE32A2 /* Sources */,
+				C046977028F6711200FE32A2 /* Frameworks */,
+				C046977128F6711200FE32A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C046977528F6711200FE32A2 /* PBXTargetDependency */,
+			);
+			name = SolarSystemARUITests;
+			productName = SolarSystemARUITests;
+			productReference = C046977328F6711200FE32A2 /* SolarSystemARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C046974F28F6711000FE32A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C046975628F6711000FE32A2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C046976828F6711200FE32A2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C046975628F6711000FE32A2;
+					};
+					C046977228F6711200FE32A2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C046975628F6711000FE32A2;
+					};
+				};
+			};
+			buildConfigurationList = C046975228F6711000FE32A2 /* Build configuration list for PBXProject "SolarSystemAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C046974E28F6711000FE32A2;
+			productRefGroup = C046975828F6711000FE32A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C046975628F6711000FE32A2 /* SolarSystemAR */,
+				C046976828F6711200FE32A2 /* SolarSystemARTests */,
+				C046977228F6711200FE32A2 /* SolarSystemARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C046975528F6711000FE32A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C046976428F6711200FE32A2 /* Preview Assets.xcassets in Resources */,
+				C046976128F6711200FE32A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C046976728F6711200FE32A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C046977128F6711200FE32A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C046975328F6711000FE32A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C046975D28F6711000FE32A2 /* ContentView.swift in Sources */,
+				C046975B28F6711000FE32A2 /* AppDelegate.swift in Sources */,
+				C046975F28F6711000FE32A2 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C046976528F6711200FE32A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C046976E28F6711200FE32A2 /* SolarSystemARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C046976F28F6711200FE32A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C046977A28F6711200FE32A2 /* SolarSystemARUITestsLaunchTests.swift in Sources */,
+				C046977828F6711200FE32A2 /* SolarSystemARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C046976B28F6711200FE32A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C046975628F6711000FE32A2 /* SolarSystemAR */;
+			targetProxy = C046976A28F6711200FE32A2 /* PBXContainerItemProxy */;
+		};
+		C046977528F6711200FE32A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C046975628F6711000FE32A2 /* SolarSystemAR */;
+			targetProxy = C046977428F6711200FE32A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C046977B28F6711200FE32A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C046977C28F6711200FE32A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C046977E28F6711200FE32A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SolarSystemAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cosmos.SolarSystemAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C046977F28F6711200FE32A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SolarSystemAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cosmos.SolarSystemAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C046978128F6711200FE32A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cosmos.SolarSystemARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystemAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SolarSystemAR";
+			};
+			name = Debug;
+		};
+		C046978228F6711200FE32A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cosmos.SolarSystemARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystemAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SolarSystemAR";
+			};
+			name = Release;
+		};
+		C046978428F6711200FE32A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cosmos.SolarSystemARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolarSystemAR;
+			};
+			name = Debug;
+		};
+		C046978528F6711200FE32A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9345CH2WK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cosmos.SolarSystemARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolarSystemAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C046975228F6711000FE32A2 /* Build configuration list for PBXProject "SolarSystemAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C046977B28F6711200FE32A2 /* Debug */,
+				C046977C28F6711200FE32A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C046977D28F6711200FE32A2 /* Build configuration list for PBXNativeTarget "SolarSystemAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C046977E28F6711200FE32A2 /* Debug */,
+				C046977F28F6711200FE32A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C046978028F6711200FE32A2 /* Build configuration list for PBXNativeTarget "SolarSystemARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C046978128F6711200FE32A2 /* Debug */,
+				C046978228F6711200FE32A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C046978328F6711200FE32A2 /* Build configuration list for PBXNativeTarget "SolarSystemARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C046978428F6711200FE32A2 /* Debug */,
+				C046978528F6711200FE32A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C046974F28F6711000FE32A2 /* Project object */;
+}
