@@ -10,7 +10,30 @@ import RealityKit
 
 struct ContentView : View {
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        LaunchContainer()
+    }
+}
+
+struct LaunchContainer: View {
+    @State var showARViewContainer = false
+    
+    var body: some View {
+        VStack {
+            Text("What do you want to explore?")
+                .bold()
+                .font(.title)
+                .padding()
+            
+            Button("Space") {
+                print("Start exploring space")
+                showARViewContainer.toggle()
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+        .fullScreenCover(isPresented: $showARViewContainer) {
+            ARViewContainer()
+                .edgesIgnoringSafeArea(.all)
+        }
     }
 }
 
