@@ -389,6 +389,84 @@
                     }
                   ],
                   "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "F6C8F7AF-05E8-492A-AD2B-86CF1CF54924"
+                                          ],
+                                          "userIdentifier" : "SunTapped"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "74B7E3A6-2EEE-4DBB-B4A4-BD334DBA23CD",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "1533D30F-DBAC-4482-8112-E1C199A7FD4F",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "53A6FD7B-D74C-4FD7-B9D7-D2599DDB849E",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior 1",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "F6C8F7AF-05E8-492A-AD2B-86CF1CF54924"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "14E683C3-7046-448B-80C4-C3E79ECD3266",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
                 }
               ],
               "gravity" : [
@@ -1551,21 +1629,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.082335174083709717,
-                  1.4550185500894486e-09,
-                  -0.99660474061965942,
+                  0.1115187481045723,
+                  4.9590420658773837e-10,
+                  -0.99376237392425537,
                   0,
-                  -0.76798331737518311,
-                  0.63731938600540161,
-                  -0.063447460532188416,
+                  -0.55455976724624634,
+                  0.82981359958648682,
+                  -0.062231987714767456,
                   0,
-                  0.63515549898147583,
-                  0.7705998420715332,
-                  0.052473872900009155,
+                  0.82463747262954712,
+                  0.5580407977104187,
+                  0.092539846897125244,
                   0,
-                  52.258335113525391,
-                  46.161540985107422,
-                  17.346517562866211,
+                  62.559959411621094,
+                  29.077381134033203,
+                  20.086824417114258,
                   1
                 ],
                 "sceneTransform" : [

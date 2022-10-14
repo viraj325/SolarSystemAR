@@ -39,11 +39,18 @@ struct LaunchContainer: View {
 
 struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
-        let arView = ARView(frame: .zero)
+        let arView = ARView(frame: .infinite) //was zero before
         
         // Load the "Box" scene from the "Experience" Reality File
-        //let boxAnchor = try! Experience.loadBox()
+        //let boxAnchorTwo = try! Experience.loadBox()
+        
         if let boxAnchor = try? Experience.loadBox() {
+            /*let sunInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "cubeTap"}).first
+            
+            sunInfoAction?.onAction = { entity in
+                self.textTouch(name: entity.name)
+            }*/
+            
             // Add the box anchor to the scene
             arView.scene.anchors.append(boxAnchor)
             
@@ -91,6 +98,10 @@ struct ARViewContainer: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
+    
+    func textTouch(name: String)  {
+        print("\(name) clicked")
+    }
 }
 
 #if DEBUG
