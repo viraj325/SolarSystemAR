@@ -42,10 +42,51 @@ struct ARViewContainer: UIViewRepresentable {
         let arView = ARView(frame: .zero)
         
         // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        //let boxAnchor = try! Experience.loadBox()
+        if let boxAnchor = try? Experience.loadBox() {
+            // Add the box anchor to the scene
+            arView.scene.anchors.append(boxAnchor)
+            
+            //load all of the planets
+            if let sun = boxAnchor.findEntity(named: "Sun") {
+                print("\(sun.name) Loaded")
+            }
+            
+            if let mercury = boxAnchor.findEntity(named: "Mercury") {
+                print("\(mercury.name) Loaded")
+            }
+            
+            if let venus = boxAnchor.findEntity(named: "Venus") {
+                print("\(venus.name) Loaded")
+            }
+            
+            if let earth = boxAnchor.findEntity(named: "Earth") {
+                print("\(earth.name) Loaded")
+            }
+            
+            if let mars = boxAnchor.findEntity(named: "Mars") {
+                print("\(mars.name) Loaded")
+            }
+            
+            if let jupiter = boxAnchor.findEntity(named: "Jupiter") {
+                print("\(jupiter.name) Loaded")
+            }
+            
+            if let saturn = boxAnchor.findEntity(named: "Saturn") {
+                print("\(saturn.name) Loaded")
+            }
+            
+            if let uranus = boxAnchor.findEntity(named: "Uranus") {
+                print("\(uranus.name) Loaded")
+            }
+            
+            if let neptune = boxAnchor.findEntity(named: "Neptune") {
+                print("\(neptune.name) Loaded")
+            }
+        }
         
         // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+        //arView.scene.anchors.append(boxAnchor)
         return arView
     }
     
