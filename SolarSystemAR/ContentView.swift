@@ -45,12 +45,6 @@ struct ARViewContainer: UIViewRepresentable {
         //let boxAnchorTwo = try! Experience.loadBox()
         
         if let boxAnchor = try? Experience.loadBox() {
-            /*let sunInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "cubeTap"}).first
-            
-            sunInfoAction?.onAction = { entity in
-                self.textTouch(name: entity.name)
-            }*/
-            
             // Add the box anchor to the scene
             arView.scene.anchors.append(boxAnchor)
             
@@ -89,6 +83,42 @@ struct ARViewContainer: UIViewRepresentable {
             
             if let neptune = boxAnchor.findEntity(named: "Neptune") {
                 print("\(neptune.name) Loaded")
+            }
+            
+            /*let sunInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "cubeTap"}).first
+             
+             sunInfoAction?.onAction = { entity in
+             self.textTouch(name: entity.name)
+             }*/
+            
+            let sunInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "Sun"}).first
+            sunInfoAction?.onAction = { entity in
+                self.textTouch(name: entity?.name ?? "Error")
+            }
+            
+            let mercuryInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "Mercury"}).first
+            mercuryInfoAction?.onAction = { entity in
+                self.textTouch(name: entity?.name ?? "Error")
+            }
+            
+            let venusInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "Venus"}).first
+            venusInfoAction?.onAction = { entity in
+                self.textTouch(name: entity?.name ?? "Error")
+            }
+            
+            let earthInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "Earth"}).first
+            earthInfoAction?.onAction = { entity in
+                self.textTouch(name: entity?.name ?? "Error")
+            }
+            
+            let marsInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "Mars"}).first
+            marsInfoAction?.onAction = { entity in
+                self.textTouch(name: entity?.name ?? "Error")
+            }
+            
+            let jupiterInfoAction = boxAnchor.actions.allActions.filter({$0.identifier == "Jupiter"}).first
+            jupiterInfoAction?.onAction = { entity in
+                self.textTouch(name: entity?.name ?? "Error")
             }
         }
         
